@@ -1,0 +1,17 @@
+{
+    "login": {
+        "appTitle": "Security Console",
+        "appDescription": "User & Role Management System",
+        "authEndpoint": "/auth",
+        "redirectUrl": "../",
+        "showRememberMe": true,
+        "sessionTimeout": 30,
+        "tfaEnabled": true
+    },
+    "api": {
+        "prefix": "/test",
+        "usersPath": "/73/users",
+        "rolesPath": "/74/roles",
+        "registryPath": "/registry"
+    }
+}
